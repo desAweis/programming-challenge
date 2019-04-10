@@ -4,7 +4,7 @@ The specific descriptions of this challenge can be found in `description-1.png` 
 
 One of the possible solution is presented named `sat.cpp`.
 
-#Main idea:
+# Main idea:
 
 brute force
 
@@ -12,7 +12,8 @@ brute force
 
 - `set` delete repeat variables
 - `bitset` assign bit values in canonical order to all variables
-- `regex_search` find and replace every  internal tuple "|xy", loop until s == "1" or "0"
+- `map` to store corresponding values
+- `regex_search` find and replace every  internal tuple "|xy" by "0" or "1", loop until s == "1" or "0"
 - `regex_match` handle invalid input
 
 # sample input
